@@ -14290,7 +14290,30 @@ As Scalar Vector Machine (SVM) is taking longer training and predicting time. On
 The machine learning model that has been used for this use-case is based on Ensemble method and using Random Forest Classifier Alorithm for the prediction.
 <br>
 The idea behind picking Random Forest Algorithm is that it generates multiple small trees from random subsets of the data. Each of those tree gives a biased classifier. They each capture different trends. The addition of all these trees is like a team of experts each with a little knowledge over the overall subject but thorough in the area of their expertise. 
+<br>
+<br>
+&lt;img src ="RF.jpg", width=900 , height=700&gt;
+<br>
+To understand the working of Random Forest Algorithm, it’s crucial that we should understand a tree. A tree works in the following ways:
 <br></p>
+<ul>
+<li>Given a Data-Frame, a tree partitions the data based on rules (if-else). Yes, here tree creates rules. These rules divide the data sets into distinct and non-overlapping regions. These rules are determined by a variable’s contribution to the homogeneity or pureness of the resultant child nodes (X2, X3) as shown in the above image. The variable X1 resulted in the highest homogeneity in child nodes, hence it became the root node. 
+<br></li>
+<li>As per our use-case i.e. Classification problem, we are trying to build Classification trees where the output is predicted using mode of observations in the terminal nodes, and the splitting decision is based on the following methods – 
+<br>
+Gini Index – It’s a measure of node purity. For a split to take place, the Gini index for a child node should be less than the parent node.
+<br>
+Entropy – Entropy is a measure of node impurity. For a binary class A and B, the formula to calculate the entropy is E = - P(A)<em>log(P(A)) – P(B)</em>log(P(B)) where P(A) &amp; P(B) is probability of A &amp; B respectively. Entropy is maximum at P=0.5 that means, a new observation has a 50-50 chance of getting classified in either classes. The entropy is minimum when the probability is 0 or 1. 
+<br>
+<br>
+In short, every tree attempts to create rules in such a way that the resultant terminal nodes could be as pure as possible. Higher the purity and lesser the uncertainty to make the decision. Building of many decision trees result into a Forest. A random forest works the following way: </li>
+<li>First, it uses the Bagging algorithm (Bootstrap Aggregating) to create random samples. Given a dataset D1 (R rows and C columns), it creates a new dataset (D2) by sampling n cases at random with replacement from the original data. About 1/3 of the rows from D1 are left out, known as Out of Bag (OOB) samples.</li>
+<li>Then, the model trains on D2. OOB sample is used to determine unbiased estimate of the error.</li>
+<li>Out of C columns, sqrt(C) columns are selected at each node in dataset.</li>
+<li>Several trees are grown and the final prediction is obtained by averaging or voting as shown in the below image.
+<br>
+&lt;img src="<a href="https://cdn-images-1.medium.com/max/1600/1*i0o8mjFfCn-uD79-F1Cqkw.png">https://cdn-images-1.medium.com/max/1600/1*i0o8mjFfCn-uD79-F1Cqkw.png</a>", width=700, height=500 &gt;</li>
+</ul>
 
 </div>
 </div>
