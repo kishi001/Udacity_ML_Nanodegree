@@ -21,17 +21,12 @@ Each image has only one fish category, expect that there are sometimes very smal
 ## Project Instructions
 1. Clone the repositry and navigate to the downloaded folder.
 
-	git clone https://github.com/kishi001/Udacity_ML_Nanodegree.git
-	
+	git clone https://github.com/kishi001/Udacity_ML_Nanodegree.git	
 	cd capstone
 
 
 2. Download the dataset from [The Nature Conservancy Fisheries Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/data)
 
-
-## Requirements
-* Python 3.6
-* ipython / Jupyter Notebook
 
 ## Open the Notebook
 * jupyter Notebook capstone_project.ipynb
