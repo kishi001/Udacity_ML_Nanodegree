@@ -8,7 +8,7 @@ The Capstone is a two-staged project. The first is the proposal component, where
 
 You can find the [capstone proposal rubric here](https://review.udacity.com/#!/rubrics/410/view), and the [capstone project rubric here](https://review.udacity.com/#!/rubrics/108/view). Please ensure that you are following directions correctly before submitting these two stages which encapsulate your capstone.
 
-Please email [mail-to](machine-support@udacity.com) if you have any questions.
+Please email [machine-support@udacity.com](machine-support@udacity.com) if you have any questions.
 
 ## Project Overview
 
