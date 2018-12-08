@@ -1,6 +1,14 @@
-# Udacity MLND Capstone
+# Machine Learning Engineer Nanodegree
 
-Capstone project for Udacity's Machine Learning Nanodegree
+## Specializations
+
+## Project: Capstone Proposal and Capstone Project 
+
+The Capstone is a two-staged project. The first is the proposal component, where you can receive valuable feedback about your project idea, design, and proposed solution. This must be completed prior to your implementation and submitting for the capstone project.
+
+You can find the [capstone proposal rubric here](https://review.udacity.com/#!/rubrics/410/view), and the [capstone project rubric here](https://review.udacity.com/#!/rubrics/108/view). Please ensure that you are following directions correctly before submitting these two stages which encapsulate your capstone.
+
+Please email [mail-to](machine-support@udacity.com) if you have any questions.
 
 ## Project Overview
 
@@ -11,11 +19,14 @@ Each image has only one fish category, expect that there are sometimes very smal
 
 
 ## Project Instructions
-* 1. Clone the repositry and navigate to the downloaded folder.
+1. Clone the repositry and navigate to the downloaded folder.
+
 	git clone https://github.com/kishi001/Udacity_ML_Nanodegree.git
+	
 	cd capstone
 
-* 2. Download the dataset from [The Nature Conservancy Fisheries Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/data)
+
+2. Download the dataset from [The Nature Conservancy Fisheries Monitoring](https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/data)
 
 
 ## Requirements
