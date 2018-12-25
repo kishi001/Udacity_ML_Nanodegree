@@ -30,4 +30,13 @@ cd capstone
 
 
 ## Open the Notebook
-* jupyter Notebook capstone_project.ipynb
+* jupyter Notebook EDA.ipynb 
+* jupyter Notebook Benchmark-model1.ipynb
+* jupyter Notebook model2.ipynb
+* jupyter Notebook model3.ipynb
+* jupyter Notebook model4.ipynb
+* jupyter Notebook model5.ipynb
+* jupyter Notebook model6.ipynb
+
+## To view report
+* open report.pdf
